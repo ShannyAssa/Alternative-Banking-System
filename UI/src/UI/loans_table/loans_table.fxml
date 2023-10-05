@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.loans_table.LoansTableController">
+   <content>
+      <TableView fx:id="loansTable">
+         <columns>
+            <TableColumn fx:id="ID" prefWidth="105.0" text="ID" />
+            <TableColumn fx:id="Owner" prefWidth="105.0" text="Owner" />
+            <TableColumn fx:id="Category" prefWidth="105.0" text="Category" />
+            <TableColumn fx:id="Principal" prefWidth="70.0" text="Principal" />
+            <TableColumn fx:id="LoanTerm" prefWidth="70.0" text="Loan Term" />
+            <TableColumn fx:id="InterestRate" text="Interest rate " />
+            <TableColumn fx:id="PaymentInterval" prefWidth="105.0" text="Payment Interval" />
+            <TableColumn fx:id="StartingDate" prefWidth="85.0" text="Starting Date" />
+            <TableColumn fx:id="TerminationDate" prefWidth="105.0" text="Termination Date" />
+            <TableColumn fx:id="NextPayment" prefWidth="85.0" text="Next Payment" />
+            <TableColumn fx:id="Status" prefWidth="75.0" text="Status" />
+            <TableColumn fx:id="Participants" prefWidth="75.0" text="Participants" />
+            <TableColumn fx:id="PendingPrincipal" prefWidth="105.0" text="Pending Principal" />
+            <TableColumn fx:id="CollectedPrincipal" prefWidth="110.0" text="Collected Principal" />
+            <TableColumn fx:id="PaymentsHistory" prefWidth="105.0" text="Payments History" />
+            <TableColumn fx:id="PaidPrincipal" prefWidth="105.0" text="Paid Principal" />
+            <TableColumn fx:id="UnpaidPrincipal" prefWidth="105.0" text="Unpaid Pricipal" />
+            <TableColumn fx:id="PaidInterest" prefWidth="105.0" text="Paid Interest" />
+            <TableColumn fx:id="UnpaidInterest" prefWidth="105.0" text="Unpaid Interest" />
+            <TableColumn fx:id="UnpaidPayments" prefWidth="105.0" text="Unpaid Payments" />
+         </columns>
+      </TableView>
+   </content>
+</ScrollPane>
